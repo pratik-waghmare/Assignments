@@ -1,0 +1,46 @@
+/* ------------ Reset ----------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ------------ Styling ----------------- */
+
+body {
+  background: #111229;
+}
+
+section {
+  width: 80vh;
+  height: 90vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: inline-block;
+  margin: 1em;
+  padding: 0.75em 2em;
+  background: #000;
+  color: #e5c558;
+  font-family: 'Rubik', sans-serif;
+  font-size: 2rem;
+  border: 0.075em solid #e5c558;
+  border-radius: 0.25em;
+  transition: 0.3s ease-in-out;
+}
+
+.button:hover {
+  transform: translateY(-0.25em);
+  color: #fff;
+  border-color: #276c73;
+  box-shadow: 4px 4px 6px #5293e8;
+}
