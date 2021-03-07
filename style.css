@@ -1,0 +1,48 @@
+/* ----------- RESET ------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body * {
+  /* outline: 2px solid blue; */
+}
+
+section {
+  width: 50%;
+  margin: 3em auto;
+}
+
+section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+
+  justify-content: center;
+  align-items: center;
+}
+
+section ul li {
+  border: 1px solid #000;
+  width: 100%;
+  text-align: center;
+}
+
+section ul li a {
+  display: inline-block;
+  padding: 1em;
+
+  width: 100%;
+  background: #f2f3f7;
+}
