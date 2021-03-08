@@ -200,4 +200,8 @@ footer .right ul a {
   .Hero h1 {
     font-size: 1.75rem;
   }
+
+  nav ul {
+    display: none;
+  }
 }
