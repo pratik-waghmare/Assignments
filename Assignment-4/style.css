@@ -184,15 +184,19 @@ footer .left {
   flex: 1;
 }
 
-footer .right ul {
+footer .right {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-footer .right ul a {
+footer .right {
   display: inline-block;
   padding: 0.5em 1.5em;
+  color: #fff;
+}
+
+footer .right a {
   color: #fff;
 }
 
@@ -203,5 +207,13 @@ footer .right ul a {
 
   nav ul {
     display: none;
+  }
+
+  footer .left {
+    flex: 0;
+  }
+
+  footer {
+    flex-direction: column;
   }
 }
